@@ -1,8 +1,8 @@
 # ----
 # Site
 
-title: Frisco Template
-url: "https://brave-submarine.cloudvent.net"
+title: Cervant
+url: "https://www.cervant.io"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
@@ -10,16 +10,30 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: App marketing template for Jekyll.
+description: Cervant Web
 author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
+  name: Cervant, LLC 
+  email: hello@cervant.io
+  twitter: cervant
 social:
-  name: Frisco Template
+  name: Cervant
   links:
-    - https://github.com/CloudCannon/frisco-jekyll-template
+    - https://www.cervant.io
 
+##############################################################################
+# Running in DEV environment:
+# $ bundle update
+# $ gem install tzinfo
+# $ gem install 'tzinfo-data'
+#
+# and, add the following line to the top of the Gemfile
+# $ gem 'tzinfo-data'
+#
+# To run the app locally, run
+#
+# $ bundle exec jekyll serve .
+#
+#############################################################################
 # -----
 # Build
 
